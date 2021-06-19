@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class HienThiSoNguyenToNhoHon100 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         int i = 2;
         boolean check = true;
         while (i < 100) {
