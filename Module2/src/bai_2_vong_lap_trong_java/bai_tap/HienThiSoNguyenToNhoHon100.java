@@ -8,11 +8,12 @@ public class HienThiSoNguyenToNhoHon100 {
         boolean check = true;
         while (i < 100) {
             for (int j = 2; j <= i / 2; j++) {
-                if (i%j==0) {
+                if (i % j == 0) {
                     check = false;
+                    break;
                 }
             }
-            if (check == true) {
+            if (check) {
                 System.out.println(i);
             }
             i++;

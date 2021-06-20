@@ -12,11 +12,12 @@ public class HienThi20SoNguyenToDauTien {
         boolean check = true;
         while (count < number) {
             for (int j = 2; j <= i / 2; j++) {
-               if (i%j==0) {
-                   check = false;
-               }
+                if (i % j == 0) {
+                    check = false;
+                    break;
+                }
             }
-            if (check == true) {
+            if (check) {
                 System.out.println(i);
                 count++;
             }
