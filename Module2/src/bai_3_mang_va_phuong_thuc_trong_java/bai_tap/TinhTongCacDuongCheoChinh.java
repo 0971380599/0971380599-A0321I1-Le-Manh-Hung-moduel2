@@ -3,7 +3,7 @@ package bai_3_mang_va_phuong_thuc_trong_java.bai_tap;
 import java.util.Scanner;
 
 public class TinhTongCacDuongCheoChinh {
-    public static int SumDiagonalLine(int col,int row, int[][] array) {
+    public static int sumDiagonalLine(int col,int row, int[][] array) {
         int sum = 0;
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
@@ -14,7 +14,7 @@ public class TinhTongCacDuongCheoChinh {
         }
         return sum;
     }
-    public static int SumDiagonalLineReverse(int col,int row, int[][] array) {
+    public static int sumDiagonalLineReverse(int col,int row, int[][] array) {
         int sum = 0;
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
@@ -46,7 +46,7 @@ public class TinhTongCacDuongCheoChinh {
                 array[i][j] = input.nextInt();
             }
         }
-        System.out.println("Sum diagonal line favorable is: " + SumDiagonalLine(column, row, array));
-        System.out.println("Sum diagonal line reverse is: " + SumDiagonalLineReverse(column, row, array));
+        System.out.println("Sum diagonal line favorable is: " + sumDiagonalLine(column, row, array));
+        System.out.println("Sum diagonal line reverse is: " + sumDiagonalLineReverse(column, row, array));
     }
 }

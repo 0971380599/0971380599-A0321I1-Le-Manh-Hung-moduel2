@@ -3,7 +3,7 @@ package bai_3_mang_va_phuong_thuc_trong_java.bai_tap;
 import java.util.Scanner;
 
 public class TinhTongCacSoTrong1CotXacDinh {
-    public static int SumCol(int col,int row, int[][] array) {
+    public static int sumCol(int col,int row, int[][] array) {
         int sum = 0;
         for (int i = 0; i < row; i++) {
             sum += array[i][col];
@@ -26,6 +26,6 @@ public class TinhTongCacSoTrong1CotXacDinh {
         }
         System.out.println("Enter Column need to sum: ");
         int columnSum = input.nextInt();
-        System.out.println("Sum of column "+ column + " is: " + SumCol(columnSum, row, array));
+        System.out.println("Sum of column "+ column + " is: " + sumCol(columnSum, row, array));
     }
 }

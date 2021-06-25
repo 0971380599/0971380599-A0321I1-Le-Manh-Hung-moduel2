@@ -3,7 +3,7 @@ package bai_3_mang_va_phuong_thuc_trong_java.bai_tap;
 import java.util.Scanner;
 
 public class TimGiaTriNhoNhatTrongMang {
-    public static int MinValue(int[] array){
+    public static int minValue(int[] array){
         int min = array[0];
         int index = 0;
         for (int i=0; i<array.length;i++) {
@@ -34,7 +34,7 @@ public class TimGiaTriNhoNhatTrongMang {
         for (int a : array) {
             System.out.print(a + "\t");
         }
-        int index = MinValue(array);
+        int index = minValue(array);
         System.out.println("");
         System.out.println("Element max is array[" + index + "]= " + array[index]);
     }
