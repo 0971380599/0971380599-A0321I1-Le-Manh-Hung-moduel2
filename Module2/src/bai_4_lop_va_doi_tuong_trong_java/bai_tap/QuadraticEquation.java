@@ -5,7 +5,7 @@ import bai_4_lop_va_doi_tuong_trong_java.thuc_hanh.Rectangle;
 import java.util.Scanner;
 
 public class QuadraticEquation {
-    float a;
+    private float a;
     float b;
     float c;
     float delta;
@@ -44,8 +44,9 @@ public class QuadraticEquation {
     public float getRoot2() {
         return this.x2 = (float) ((-this.b - Math.pow(this.delta, 0.5)) / 2 * this.a);
     }
+
     public float getRoot3() {
-        return this.x1 = this.x2 = (-this.b/ 2 * this.a);
+        return this.x1 = this.x2 = (-this.b / 2 * this.a);
     }
 
     public static void main(String[] args) {
@@ -57,10 +58,14 @@ public class QuadraticEquation {
         System.out.println("Enter c: ");
         float c = input.nextFloat();
         QuadraticEquation quadraticEquation = new QuadraticEquation(a, b, c);
-        if (quadraticEquation.getDiscriminant() > 0) {
-            System.out.println("Phuong trinh co 2 nghiem phan biet: " + quadraticEquation.getRoot1() + ", " + quadraticEquation.getRoot2());
-        } else if (quadraticEquation.getDiscriminant() == 0) {
-            System.out.println("Phuong trinh co 1 nghiem kep: " + quadraticEquation.getRoot3());
-        } else System.out.println("The equation has no roots");
+        if (a == 0) {
+            System.out.println("Phuong trinh co 1 nghiem: " + (-c / b));
+        } else {
+            if (quadraticEquation.getDiscriminant() > 0) {
+                System.out.println("Phuong trinh co 2 nghiem phan biet: " + quadraticEquation.getRoot1() + ", " + quadraticEquation.getRoot2());
+            } else if (quadraticEquation.getDiscriminant() == 0) {
+                System.out.println("Phuong trinh co 1 nghiem kep: " + quadraticEquation.getRoot3());
+            } else System.out.println("The equation has no roots");
+        }
     }
 }

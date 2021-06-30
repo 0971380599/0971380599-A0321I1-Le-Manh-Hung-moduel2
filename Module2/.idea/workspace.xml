@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b9b3a9b-fbef-41ba-8197-cd0eba46b3b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/bai_1_access_modifier/_default/Pack/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/bai_1_access_modifier/_default/_mypack/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/bai_1_access_modifier/_private/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/bai_1_access_modifier/_private/Simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/bai_1_access_modifier/_protected/mypack/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/bai_1_access_modifier/_protected/pack/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/bai_1_access_modifier/_public/mypack/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/bai_1_access_modifier/_public/pack/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/bai_2_static_method/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/bai_2_static_method/TestStaticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/bai_3_static_property/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/bai_3_static_property/TestStaticProperty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TimGiaTriNhoNhatTrongMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TimGiaTriNhoNhatTrongMang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TinhTongCacDuongCheoChinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TinhTongCacDuongCheoChinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TinhTongCacSoTrong1CotXacDinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TinhTongCacSoTrong1CotXacDinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_4_lop_va_doi_tuong_trong_java/bai_tap/QuadraticEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_4_lop_va_doi_tuong_trong_java/bai_tap/QuadraticEquation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_4_lop_va_doi_tuong_trong_java/bai_tap/StopWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_4_lop_va_doi_tuong_trong_java/bai_tap/StopWatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_4_lop_va_doi_tuong_trong_java/bai_tap/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_4_lop_va_doi_tuong_trong_java/bai_tap/QuadraticEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_4_lop_va_doi_tuong_trong_java/bai_tap/StopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_4_lop_va_doi_tuong_trong_java/bai_tap/StopWatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +30,7 @@
       <list>
         <option value="HTML File" />
         <option value="FxmlFile" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -25,7 +39,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1u27FQ29qcm6VAWS9hhSu5H1jgE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,32 +60,19 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Fan">
-    <configuration name="DemSoLanXuatHienCuaKiTuTrongChuoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.bai_tap.DemSoLanXuatHienCuaKiTuTrongChuoi" />
+  <component name="RunManager" selected="Application.TestStaticProperty">
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_5_access_modifier_static_method_static_property.thuc_hanh.bai_1_access_modifier._protected.mypack.B" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_3_mang_va_phuong_thuc_trong_java.bai_tap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_4_lop_va_doi_tuong_trong_java.bai_tap.Fan" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bai_4_lop_va_doi_tuong_trong_java.bai_tap.*" />
+          <option name="PATTERN" value="bai_5_access_modifier_static_method_static_property.thuc_hanh.bai_1_access_modifier._protected.mypack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_4_lop_va_doi_tuong_trong_java.thuc_hanh.Rectangle" />
+    <configuration name="Simple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_5_access_modifier_static_method_static_property.thuc_hanh.bai_1_access_modifier._private.Simple" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_4_lop_va_doi_tuong_trong_java.thuc_hanh.*" />
+          <option name="PATTERN" value="bai_5_access_modifier_static_method_static_property.thuc_hanh.bai_1_access_modifier._private.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StopWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_4_lop_va_doi_tuong_trong_java.bai_tap.StopWatch" />
+    <configuration name="TestStaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_5_access_modifier_static_method_static_property.thuc_hanh.bai_2_static_method.TestStaticMethod" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_4_lop_va_doi_tuong_trong_java.bai_tap.*" />
+          <option name="PATTERN" value="bai_5_access_modifier_static_method_static_property.thuc_hanh.bai_2_static_method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStaticProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_5_access_modifier_static_method_static_property.thuc_hanh.bai_3_static_property.TestStaticProperty" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai_5_access_modifier_static_method_static_property.thuc_hanh.bai_3_static_property.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Fan" />
-        <item itemvalue="Application.StopWatch" />
+        <item itemvalue="Application.TestStaticProperty" />
+        <item itemvalue="Application.TestStaticMethod" />
+        <item itemvalue="Application.B" />
+        <item itemvalue="Application.Simple" />
         <item itemvalue="Application.QuadraticEquation" />
-        <item itemvalue="Application.Rectangle" />
-        <item itemvalue="Application.DemSoLanXuatHienCuaKiTuTrongChuoi" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +177,12 @@
       <workItem from="1624418214551" duration="2000" />
       <workItem from="1624454359012" duration="3515000" />
       <workItem from="1624546242961" duration="597000" />
-      <workItem from="1624618316427" duration="12145000" />
+      <workItem from="1624618316427" duration="12737000" />
+      <workItem from="1624685643800" duration="49000" />
+      <workItem from="1624694216077" duration="13000" />
+      <workItem from="1624878286189" duration="5366000" />
+      <workItem from="1625035075569" duration="55000" />
+      <workItem from="1625052935060" duration="4888000" />
     </task>
     <servers />
   </component>
@@ -197,26 +218,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="484" y="228" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1536.824@0.0.1536.824" timestamp="1624104003709" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1624628753944">
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1625035129637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1624628753943" />
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1624627716952">
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1625035129637" />
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1625064797754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624627716952" />
-    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1624627716952">
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625064797754" />
+    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1625064797754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1624627716952" />
-    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1624627716952">
+    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625064797754" />
+    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1625064797754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1624627716952" />
-    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1624627716952">
+    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625064797754" />
+    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1625064797754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1624627716952" />
+    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625064797754" />
     <state width="1493" height="253" key="GridCell.Tab.1.bottom" timestamp="1624287427856">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -233,10 +254,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="253" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1624287427856" />
-    <state x="546" y="80" key="SettingsEditor" timestamp="1624369924647">
+    <state x="369" y="0" key="SettingsEditor" timestamp="1625056643270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="546" y="80" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1624369924647" />
+    <state x="369" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1625056643270" />
     <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1624201796555">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -245,9 +266,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="209" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1624628757151" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1624022836392">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1625056120741">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1624022836392" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1625056120741" />
   </component>
 </project>
