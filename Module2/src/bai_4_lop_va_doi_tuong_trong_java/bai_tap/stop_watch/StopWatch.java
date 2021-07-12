@@ -1,4 +1,4 @@
-package bai_4_lop_va_doi_tuong_trong_java.bai_tap;
+package bai_4_lop_va_doi_tuong_trong_java.bai_tap.stop_watch;
 
 import java.time.LocalTime;
 
@@ -56,7 +56,6 @@ public class StopWatch {
         }
         return a;
     }
-
     public static void main(String[] args) {
         int[] a = new int[100000];
         for (int i = 0; i < 100000; i++) {
