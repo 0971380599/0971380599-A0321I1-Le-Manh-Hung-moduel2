@@ -56,20 +56,4 @@ public class StopWatch {
         }
         return a;
     }
-    public static void main(String[] args) {
-        int[] a = new int[100000];
-        for (int i = 0; i < 100000; i++) {
-            a[i] = (int) (Math.random() * 1000);
-        }
-        StopWatch startWatch = new StopWatch();
-        startWatch.start();
-        a = selectionSort(a);
-        for (int x : a) {
-            System.out.println(x);
-        }
-        startWatch.stop();
-        System.out.println(startWatch.getStartTime() + "+" + startWatch.getEndTime());
-        System.out.println("Time: " + startWatch.getElapsedTime());
-
-    }
 }
