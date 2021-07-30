@@ -2,19 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b9b3a9b-fbef-41ba-8197-cd0eba46b3b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_8_clean_code_va_refactoring/bai_tap/refactoring/TennisGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_8_clean_code_va_refactoring/bai_tap/refactoring/TennisGameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_8_clean_code_va_refactoring/thuc_hanh/refactoring_doi_ten_bien_va_tach_hang/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_8_clean_code_va_refactoring/thuc_hanh/refactoring_doi_ten_bien_va_tach_hang/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_8_clean_code_va_refactoring/thuc_hanh/refactoring_tach_bien/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_8_clean_code_va_refactoring/thuc_hanh/refactoring_tach_bien/FizzBuzzTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_8_clean_code_va_refactoring/thuc_hanh/refactoring_tach_phuong_thuc/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_8_clean_code_va_refactoring/thuc_hanh/refactoring_tach_phuong_thuc/CylinderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Module2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Module2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_10_danh_sach/bai_tap/array_list/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_10_danh_sach/bai_tap/array_list/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_10_danh_sach/thuc_hanh/trien_khai_lop_linkedlist_don_gian/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_10_danh_sach/thuc_hanh/trien_khai_lop_linkedlist_don_gian/TestMyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_10_danh_sach/thuc_hanh/trien_khai_lop_list_don_gian/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_10_danh_sach/thuc_hanh/trien_khai_lop_list_don_gian/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/bai_tap/dao_nguoc_phan_tu_trong_mang_so_nguyen_su_dung_stack/ReverseSingStackArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/bai_tap/dao_nguoc_phan_tu_trong_mang_so_nguyen_su_dung_stack/ReverseSingStackString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/bai_tap/dao_nguoc_phan_tu_trong_mang_so_nguyen_su_dung_stack/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/bai_tap/dem_so_lan_xuat_hien_cua_moi_tu_trong_1_chuoi_su_dung_map/CountOccurrencesOfChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/bai_tap/dem_so_lan_xuat_hien_cua_moi_tu_trong_1_chuoi_su_dung_map/TreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/bai_tap/trien_khai_queue_su_dung_danh_sach_lien_ket_vong/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/bai_tap/trien_khai_queue_su_dung_danh_sach_lien_ket_vong/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/bai_tap/trien_khai_queue_su_dung_danh_sach_lien_ket_vong/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/bai_tap/trien_khai_queue_su_dung_danh_sach_lien_ket_vong/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/thuc_hanh/trien_khai_queue_su_dung_danh_sach_lien_ket/LinkedListQueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/thuc_hanh/trien_khai_queue_su_dung_danh_sach_lien_ket/MyLinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/thuc_hanh/trien_khai_queue_su_dung_danh_sach_lien_ket/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/thuc_hanh/trien_khai_queue_su_dung_mang/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/thuc_hanh/trien_khai_stack_su_dung_lop_linked_list_trong_thu_vien/GenericStackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/thuc_hanh/trien_khai_stack_su_dung_lop_linked_list_trong_thu_vien/MyGenericStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/models/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/models/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/models/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/models/Facility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/models/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/models/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/models/Villa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/services/BookingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/services/BookingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/services/ContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/services/ContactServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/services/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/services/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/services/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/services/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/services/FacilityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/services/FacilityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/services/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_4_lop_va_doi_tuong_trong_java/bai_tap/stop_watch/StopWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_4_lop_va_doi_tuong_trong_java/bai_tap/stop_watch/StopWatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_1/controllers/FuramaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_1/controllers/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_1/FuramaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_8_clean_code_va_refactoring/bai_tap/refactoring/TennisGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_8_clean_code_va_refactoring/bai_tap/refactoring/TennisGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_8_clean_code_va_refactoring/bai_tap/refactoring/TennisGameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_8_clean_code_va_refactoring/bai_tap/refactoring/TennisGameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_1/FuramaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_8_clean_code_va_refactoring/bai_tap/refactoring/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_8_clean_code_va_refactoring/bai_tap/refactoring/TennisGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_8_clean_code_va_refactoring/bai_tap/refactoring/TennisGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_8_clean_code_va_refactoring/bai_tap/refactoring/TennisGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_1/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_1/controllers/FuramaController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +62,7 @@
         <option value="HTML File" />
         <option value="FxmlFile" />
         <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,13 +111,13 @@
       <recent name="D:\codegym\A0321I1-Le-Manh-Hung-moduel2\Module2\src\bai_7_abstract_class_va_interface\bai_tap\resizeable" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TennisGameTest.checkAllScores">
-    <configuration name="ResizeableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_7_abstract_class_va_interface.bai_tap.resizeable.ResizeableTest" />
+  <component name="RunManager" selected="Application.QueueClient">
+    <configuration name="GenericStackClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_11_stack_queue.thuc_hanh.trien_khai_stack_su_dung_lop_linked_list_trong_thu_vien.GenericStackClient" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_7_abstract_class_va_interface.bai_tap.resizeable.*" />
+          <option name="PATTERN" value="bai_11_stack_queue.thuc_hanh.trien_khai_stack_su_dung_lop_linked_list_trong_thu_vien.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,76 +125,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CylinderTest.testGetVolume1And2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListQueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_11_stack_queue.thuc_hanh.trien_khai_queue_su_dung_danh_sach_lien_ket.LinkedListQueueClient" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_8_clean_code_va_refactoring.thuc_hanh.refactoring_tach_phuong_thuc.*" />
+          <option name="PATTERN" value="bai_11_stack_queue.thuc_hanh.trien_khai_queue_su_dung_danh_sach_lien_ket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bai_8_clean_code_va_refactoring.thuc_hanh.refactoring_tach_phuong_thuc" />
-      <option name="MAIN_CLASS_NAME" value="bai_8_clean_code_va_refactoring.thuc_hanh.refactoring_tach_phuong_thuc.CylinderTest" />
-      <option name="METHOD_NAME" value="testGetVolume1And2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.testFizz3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_11_stack_queue.bai_tap.trien_khai_queue_su_dung_danh_sach_lien_ket_vong.Main" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_8_clean_code_va_refactoring.thuc_hanh.refactoring_tach_bien.*" />
+          <option name="PATTERN" value="bai_11_stack_queue.bai_tap.trien_khai_queue_su_dung_danh_sach_lien_ket_vong.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bai_8_clean_code_va_refactoring.thuc_hanh.refactoring_tach_bien" />
-      <option name="MAIN_CLASS_NAME" value="bai_8_clean_code_va_refactoring.thuc_hanh.refactoring_tach_bien.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="testFizz3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TennisGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_11_stack_queue.thuc_hanh.trien_khai_queue_su_dung_mang.QueueClient" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_8_clean_code_va_refactoring.bai_tap.refactoring.*" />
+          <option name="PATTERN" value="bai_11_stack_queue.thuc_hanh.trien_khai_queue_su_dung_mang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bai_8_clean_code_va_refactoring.bai_tap.refactoring" />
-      <option name="MAIN_CLASS_NAME" value="bai_8_clean_code_va_refactoring.bai_tap.refactoring.TennisGameTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TennisGameTest.checkAllScores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_11_stack_queue.bai_tap.dao_nguoc_phan_tu_trong_mang_so_nguyen_su_dung_stack.Test" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_8_clean_code_va_refactoring.bai_tap.refactoring.*" />
+          <option name="PATTERN" value="bai_11_stack_queue.bai_tap.dao_nguoc_phan_tu_trong_mang_so_nguyen_su_dung_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bai_8_clean_code_va_refactoring.bai_tap.refactoring" />
-      <option name="MAIN_CLASS_NAME" value="bai_8_clean_code_va_refactoring.bai_tap.refactoring.TennisGameTest" />
-      <option name="METHOD_NAME" value="checkAllScores" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TennisGameTest.checkAllScores" />
-        <item itemvalue="JUnit.TennisGameTest" />
-        <item itemvalue="JUnit.CylinderTest.testGetVolume1And2" />
-        <item itemvalue="JUnit.FizzBuzzTest.testFizz3" />
-        <item itemvalue="Application.ResizeableTest" />
+        <item itemvalue="Application.QueueClient" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.LinkedListQueueClient" />
+        <item itemvalue="Application.GenericStackClient" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +235,19 @@
       <workItem from="1626082216014" duration="518000" />
       <workItem from="1626087622673" duration="6892000" />
       <workItem from="1626259962803" duration="4122000" />
-      <workItem from="1626427512197" duration="8861000" />
+      <workItem from="1626427512197" duration="11016000" />
+      <workItem from="1626688358799" duration="9431000" />
+      <workItem from="1626866034774" duration="5748000" />
+      <workItem from="1627032118574" duration="4910000" />
+      <workItem from="1627042600977" duration="2135000" />
+      <workItem from="1627045161131" duration="70000" />
+      <workItem from="1627045559121" duration="118000" />
+      <workItem from="1627045694413" duration="4565000" />
+      <workItem from="1627289576103" duration="6444000" />
+      <workItem from="1627382720934" duration="24000" />
+      <workItem from="1627458685599" duration="10372000" />
+      <workItem from="1627472641053" duration="4265000" />
+      <workItem from="1627640204905" duration="1605000" />
     </task>
     <servers />
   </component>
@@ -218,10 +255,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="91" key="#Inspections" timestamp="1626435512617">
+    <state x="395" y="91" key="#Inspections" timestamp="1627048473941">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1626435512617" />
+    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1627048473941" />
     <state x="655" y="249" key="#Notifications" timestamp="1624369369893">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -234,18 +271,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="670" y="227" key="#Vim_Emulation/0.0.1536.824@0.0.1536.824" timestamp="1624369355782" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624285755398">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627463412256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1624285755398" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1627463412256" />
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1626434284594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1626434284594" />
-    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1626091329870">
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1627459206683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1626091329870" />
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1627459206683" />
     <state x="545" y="306" width="521" height="227" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1626097499047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -270,50 +307,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1625035129637" />
-    <state width="1493" height="162" key="GridCell.Tab.0.bottom" timestamp="1626436519832">
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1627481483338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626436519832" />
-    <state width="1493" height="162" key="GridCell.Tab.0.center" timestamp="1626436519832">
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627481483338" />
+    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1627481483338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626436519832" />
-    <state width="1493" height="162" key="GridCell.Tab.0.left" timestamp="1626436519832">
+    <state width="1493" height="161" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627481483338" />
+    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1627481483338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626436519832" />
-    <state width="1493" height="162" key="GridCell.Tab.0.right" timestamp="1626436519832">
+    <state width="1493" height="161" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627481483338" />
+    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1627481483338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626436519832" />
-    <state width="1493" height="253" key="GridCell.Tab.1.bottom" timestamp="1626435197148">
+    <state width="1493" height="161" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627481483338" />
+    <state width="1493" height="253" key="GridCell.Tab.1.bottom" timestamp="1627463444827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626435197148" />
-    <state width="1493" height="253" key="GridCell.Tab.1.center" timestamp="1626435197147">
+    <state width="1493" height="253" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627463444827" />
+    <state width="1493" height="253" key="GridCell.Tab.1.center" timestamp="1627463444826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1626435197147" />
-    <state width="1493" height="253" key="GridCell.Tab.1.left" timestamp="1626435197147">
+    <state width="1493" height="253" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1627463444826" />
+    <state width="1493" height="253" key="GridCell.Tab.1.left" timestamp="1627463444826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1626435197147" />
-    <state width="1493" height="253" key="GridCell.Tab.1.right" timestamp="1626435197147">
+    <state width="1493" height="253" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1627463444826" />
+    <state width="1493" height="253" key="GridCell.Tab.1.right" timestamp="1627463444827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1626435197147" />
+    <state width="1493" height="253" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1627463444827" />
     <state x="584" y="346" key="ReplaceDuplicatesPrompt" timestamp="1626432022372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="584" y="346" key="ReplaceDuplicatesPrompt/0.0.1536.824@0.0.1536.824" timestamp="1626432022372" />
-    <state x="369" y="0" key="SettingsEditor" timestamp="1625056643270">
+    <state x="369" y="0" key="SettingsEditor" timestamp="1627045675723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="369" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1625056643270" />
+    <state x="369" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1627045675723" />
     <state x="498" y="301" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1626434012559">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="301" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1626434012559" />
+    <state x="198" y="59" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1627463438556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="198" y="59" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1627463438556" />
     <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1625837226531">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -338,9 +379,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1625663240755" />
-    <state x="431" y="145" key="search.everywhere.popup" timestamp="1626082677100">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1627466674980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1626082677100" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1627466674980" />
+    <state x="491" y="317" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1627042716042">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="491" y="317" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824@0.0.1536.824" timestamp="1627042716042" />
   </component>
 </project>

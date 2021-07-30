@@ -1,4 +1,4 @@
-package task_1;
+package task_1.controllers;
 
 import java.util.Scanner;
 
