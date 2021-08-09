@@ -55,4 +55,9 @@ public class MyQueue<T> {
             currentSize--;
         }
     }
+    public void string() {
+        for (int i = 0; i <capacity; i++) {
+            System.out.println(queueArr[i]);
+        }
+    }
 }
