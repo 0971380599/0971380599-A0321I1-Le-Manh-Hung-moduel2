@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b9b3a9b-fbef-41ba-8197-cd0eba46b3b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/thuc_hanh/trien_khai_stack_su_dung_mang/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/thuc_hanh/trien_khai_stack_su_dung_mang/StackClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_frameword/bai_tap/luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_frameword/bai_tap/luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_frameword/bai_tap/luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_frameword/thuc_hanh/phan_biet_hash_map_va_hash_set/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_frameword/thuc_hanh/phan_biet_hash_map_va_hash_set/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_frameword/thuc_hanh/sap_xep_voi_comparable_va_comparator/AgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_frameword/thuc_hanh/sap_xep_voi_comparable_va_comparator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_frameword/thuc_hanh/sap_xep_voi_comparable_va_comparator/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_frameword/thuc_hanh/su_dung_hash_map_linked_hash_map_tree_map_de_luu_danh_sach_sinh_vien_theo_do_tuoi/TestMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/bai_tap/tim_chuoi_tang_dan_co_do_dai_lon_nhat/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/thuc_hanh/cai_dat_thuat_toan_tim_kiem_nhi_phan_khong_su_dung_de_quy/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/thuc_hanh/cai_dat_thuat_toan_tim_kiem_nhi_phan_khong_su_dung_de_quy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_14_thuat_toan_sap_xep/bai_tap/cai_dat_thuat_toan_sap_xep_chen/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_14_thuat_toan_sap_xep/bai_tap/minh_hoa_thuat_toan_sap_xep_chen/InsertionSortByStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_14_thuat_toan_sap_xep/thuc_hanh/cai_dat_thuat_toan_sap_xep_chon/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_14_thuat_toan_sap_xep/thuc_hanh/minh_hoa_thuat_toan_sap_xep_noi_bot/BubbleSortByStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_11_stack_queue/thuc_hanh/trien_khai_queue_su_dung_mang/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_stack_queue/thuc_hanh/trien_khai_queue_su_dung_mang/MyQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_11_stack_queue/thuc_hanh/trien_khai_queue_su_dung_mang/QueueClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_stack_queue/thuc_hanh/trien_khai_queue_su_dung_mang/QueueClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_11_stack_queue/thuc_hanh/trien_khai_queue_su_dung_mang/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/thuc_hanh/trien_khai_queue_su_dung_mang/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_11_stack_queue/thuc_hanh/trien_khai_queue_su_dung_mang/QueueClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_11_stack_queue/thuc_hanh/trien_khai_queue_su_dung_mang/QueueClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/bai_tap/tim_chuoi_tang_dan_co_do_dai_lon_nhat/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/bai_tap/tim_chuoi_tang_dan_co_do_dai_lon_nhat/A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +72,7 @@
       <recent name="D:\codegym\A0321I1-Le-Manh-Hung-moduel2\Module2\src\bai_7_abstract_class_va_interface\bai_tap\resizeable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A">
+  <component name="RunManager" selected="Application.InsertionSort">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_13_thuat_toan_tim_kiem.bai_tap.tim_chuoi_tang_dan_co_do_dai_lon_nhat.A" />
       <module name="Module2" />
@@ -99,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_12_java_collection_frameword.thuc_hanh.phan_biet_hash_map_va_hash_set.Main" />
+    <configuration name="BubbleSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_14_thuat_toan_sap_xep.thuc_hanh.minh_hoa_thuat_toan_sap_xep_noi_bot.BubbleSortByStep" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_12_java_collection_frameword.thuc_hanh.phan_biet_hash_map_va_hash_set.*" />
+          <option name="PATTERN" value="bai_14_thuat_toan_sap_xep.thuc_hanh.minh_hoa_thuat_toan_sap_xep_noi_bot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_12_java_collection_frameword.thuc_hanh.sap_xep_voi_comparable_va_comparator.Main" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_14_thuat_toan_sap_xep.bai_tap.cai_dat_thuat_toan_sap_xep_chen.InsertionSort" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_12_java_collection_frameword.thuc_hanh.sap_xep_voi_comparable_va_comparator.*" />
+          <option name="PATTERN" value="bai_14_thuat_toan_sap_xep.bai_tap.cai_dat_thuat_toan_sap_xep_chen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_12_java_collection_frameword.bai_tap.luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework.Main" />
+    <configuration name="InsertionSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_14_thuat_toan_sap_xep.bai_tap.minh_hoa_thuat_toan_sap_xep_chen.InsertionSortByStep" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_12_java_collection_frameword.bai_tap.luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework.*" />
+          <option name="PATTERN" value="bai_14_thuat_toan_sap_xep.bai_tap.minh_hoa_thuat_toan_sap_xep_chen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_13_thuat_toan_tim_kiem.thuc_hanh.cai_dat_thuat_toan_tim_kiem_nhi_phan_khong_su_dung_de_quy.Main" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_14_thuat_toan_sap_xep.thuc_hanh.cai_dat_thuat_toan_sap_xep_chon.SelectionSort" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_13_thuat_toan_tim_kiem.thuc_hanh.cai_dat_thuat_toan_tim_kiem_nhi_phan_khong_su_dung_de_quy.*" />
+          <option name="PATTERN" value="bai_14_thuat_toan_sap_xep.thuc_hanh.cai_dat_thuat_toan_sap_xep_chon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.InsertionSortByStep" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSortByStep" />
         <item itemvalue="Application.A" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +212,7 @@
       <workItem from="1627898962236" duration="8846000" />
       <workItem from="1628065062054" duration="10118000" />
       <workItem from="1628244172131" duration="7822000" />
+      <workItem from="1628493829738" duration="5374000" />
     </task>
     <servers />
   </component>
@@ -284,22 +272,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1625035129637" />
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1628274313916">
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1628503924170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628274313916" />
-    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1628274313916">
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628503924170" />
+    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1628503924170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628274313916" />
-    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1628274313916">
+    <state width="1493" height="161" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628503924170" />
+    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1628503924170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628274313916" />
-    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1628274313916">
+    <state width="1493" height="161" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628503924170" />
+    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1628503924170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628274313916" />
+    <state width="1493" height="161" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628503924170" />
     <state width="1493" height="253" key="GridCell.Tab.1.bottom" timestamp="1627463444827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -336,10 +324,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1625837226531" />
-    <state x="499" y="108" key="extract.method.dialog" timestamp="1626436402690">
+    <state x="499" y="108" key="extract.method.dialog" timestamp="1628503337551">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="108" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1626436402690" />
+    <state x="499" y="108" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1628503337551" />
     <state x="0" y="0" width="577" height="824" key="find.popup" timestamp="1625833772963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

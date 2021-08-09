@@ -35,6 +35,5 @@ public class A {
         for (Character ch : max) { // single loop
             System.out.print(ch); // Simple statement
         }
-        Arrays.sort();
     }
 }
