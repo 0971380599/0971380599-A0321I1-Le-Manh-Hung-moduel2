@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b9b3a9b-fbef-41ba-8197-cd0eba46b3b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_15_xu_li_ngoai_le_va_debug/bai_tap/su_dung_lop_illegal_triangle_exception/IllegalTriangleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_15_xu_li_ngoai_le_va_debug/bai_tap/su_dung_lop_illegal_triangle_exception/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_15_xu_li_ngoai_le_va_debug/bai_tap/su_dung_lop_illegal_triangle_exception/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_15_xu_li_ngoai_le_va_debug/thuc_hanh/debug_ung_dung_java/LinearEquationResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_15_xu_li_ngoai_le_va_debug/thuc_hanh/su_dung_lop_array_index_out_of_bounds_exception/ArrayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_15_xu_li_ngoai_le_va_debug/thuc_hanh/su_dung_lop_array_index_out_of_bounds_exception/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_15_xu_li_ngoai_le_va_debug/thuc_hanh/su_dung_lop_number_format_exception/CalculationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_16_text_file/bai_tap/copy_file_text/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_16_text_file/bai_tap/copy_file_text/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_16_text_file/thuc_hanh/tinh_tong_cac_so_trong_file_text/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_16_text_file/thuc_hanh/tinh_tong_cac_so_trong_file_text/ReadFileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_16_text_file/thuc_hanh/tinh_tong_cac_so_trong_file_text/file.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_14_thuat_toan_sap_xep/thuc_hanh/cai_dat_thuat_toan_sap_xep_chon/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_14_thuat_toan_sap_xep/thuc_hanh/cai_dat_thuat_toan_sap_xep_chon/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_14_thuat_toan_sap_xep/thuc_hanh/minh_hoa_thuat_toan_sap_xep_noi_bot/BubbleSortByStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_14_thuat_toan_sap_xep/thuc_hanh/minh_hoa_thuat_toan_sap_xep_noi_bot/BubbleSortByStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/bai_tap/tim_chuoi_tang_dan_co_do_dai_lon_nhat/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/bai_tap/tim_chuoi_tang_dan_co_do_dai_lon_nhat/StringAscendingMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_14_thuat_toan_sap_xep/thuc_hanh/cai_dat_thuat_toan_sap_xep_chon/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_14_thuat_toan_sap_xep/thuc_hanh/cai_dat_thuat_toan_sap_xep_chon/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_13_thuat_toan_tim_kiem/bai_tap/tim_chuoi_tang_dan_co_do_dai_lon_nhat/A.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,17 +63,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="bai_12_java_collection_frameword.bai_tap.luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="bai_7_abstract_class_va_interface.bai_tap.resizeable" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codegym\A0321I1-Le-Manh-Hung-moduel2\Module2\src\bai_16_text_file\bai_tap\copy_file_text" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\codegym\A0321I1-Le-Manh-Hung-moduel2\Module2\src\bai_7_abstract_class_va_interface\bai_tap\resizeable" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bai_7_abstract_class_va_interface.bai_tap.resizeable" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="bai_12_java_collection_frameword.bai_tap.luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CalculationExample">
+  <component name="RunManager" selected="Application.files">
     <configuration name="CalculationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_15_xu_li_ngoai_le_va_debug.thuc_hanh.su_dung_lop_number_format_exception.CalculationExample" />
       <module name="Module2" />
@@ -92,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_14_thuat_toan_sap_xep.bai_tap.cai_dat_thuat_toan_sap_xep_chen.InsertionSort" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_16_text_file.thuc_hanh.tinh_tong_cac_so_trong_file_text.Main" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_14_thuat_toan_sap_xep.bai_tap.cai_dat_thuat_toan_sap_xep_chen.*" />
+          <option name="PATTERN" value="bai_16_text_file.thuc_hanh.tinh_tong_cac_so_trong_file_text.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,25 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_14_thuat_toan_sap_xep.bai_tap.minh_hoa_thuat_toan_sap_xep_chen.InsertionSortByStep" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_16_text_file.bai_tap.copy_file_text.Main" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_14_thuat_toan_sap_xep.bai_tap.minh_hoa_thuat_toan_sap_xep_chen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinearEquationResolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_15_xu_li_ngoai_le_va_debug.thuc_hanh.debug_ung_dung_java.LinearEquationResolver" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bai_15_xu_li_ngoai_le_va_debug.thuc_hanh.debug_ung_dung_java.*" />
+          <option name="PATTERN" value="bai_16_text_file.bai_tap.copy_file_text.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,13 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="files" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_16_text_file.thuc_hanh.tinh_tong_cac_so_trong_file_text.files" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai_16_text_file.thuc_hanh.tinh_tong_cac_so_trong_file_text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.files" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.CalculationExample" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.LinearEquationResolver" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.InsertionSortByStep" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +220,10 @@
       <workItem from="1628603824076" duration="8524000" />
       <workItem from="1628845194721" duration="665000" />
       <workItem from="1628851613224" duration="1937000" />
-      <workItem from="1629099817555" duration="260000" />
+      <workItem from="1629099817555" duration="4755000" />
+      <workItem from="1629111042670" duration="3738000" />
+      <workItem from="1629218105613" duration="3000" />
+      <workItem from="1629285019167" duration="1113000" />
     </task>
     <servers />
   </component>
@@ -282,22 +283,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1625035129637" />
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1628691054964">
+    <state width="1493" height="162" key="GridCell.Tab.0.bottom" timestamp="1629285536949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628691054964" />
-    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1628691054964">
+    <state width="1493" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629285536949" />
+    <state width="1493" height="162" key="GridCell.Tab.0.center" timestamp="1629285536949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628691054964" />
-    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1628691054964">
+    <state width="1493" height="162" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629285536949" />
+    <state width="1493" height="162" key="GridCell.Tab.0.left" timestamp="1629285536949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628691054964" />
-    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1628691054964">
+    <state width="1493" height="162" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629285536949" />
+    <state width="1493" height="162" key="GridCell.Tab.0.right" timestamp="1629285536949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628691054964" />
+    <state width="1493" height="162" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629285536949" />
     <state width="1493" height="253" key="GridCell.Tab.1.bottom" timestamp="1627463444827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
