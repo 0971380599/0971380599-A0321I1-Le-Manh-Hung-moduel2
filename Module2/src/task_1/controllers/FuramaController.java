@@ -1,5 +1,8 @@
 package task_1.controllers;
 
+import task_2.services.CustomerServiceImpl;
+import task_2.services.EmployeeServiceImpl;
+
 import java.util.Scanner;
 
 public class FuramaController {
@@ -26,11 +29,11 @@ public class FuramaController {
                     System.out.println("Enter your choice employees: ");
                     choice1 = input.nextInt();
                     if (choice1 == 1) {
-                        System.out.println("Display list employees");
+                        EmployeeServiceImpl.displayListEmployees();
                     } else if (choice1 == 2) {
-                        System.out.println("Add new employee");
+                        EmployeeServiceImpl.addNewEmployee();
                     } else if (choice1 == 3) {
-                        System.out.println("Edit employee");
+                        EmployeeServiceImpl.editEmployee();
                     } else if (choice1 == 4) {
                         break;
                     } else System.out.println("No choice!");
@@ -45,11 +48,11 @@ public class FuramaController {
                     System.out.println("Enter your choice customers: ");
                     choice2 = input.nextInt();
                     if (choice2 == 1) {
-                        System.out.println("Display list customers");
+                        CustomerServiceImpl.displayListCustomer();
                     } else if (choice2 == 2) {
-                        System.out.println("Add new customer");
+                        CustomerServiceImpl.addNewCustomer();
                     } else if (choice2 == 3) {
-                        System.out.println("Edit customer");
+                        CustomerServiceImpl.editCustomer();
                     } else System.out.println("No choice!");
                 }
             } else if (choice == 3) {

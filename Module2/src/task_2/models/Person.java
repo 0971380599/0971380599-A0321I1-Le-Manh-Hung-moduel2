@@ -2,16 +2,16 @@ package task_2.models;
 
 public abstract class Person {
     private String name;
-    private int dateOfBirth;
-    private int sex;
+    private String dateOfBirth;
+    private String sex;
     private int identityCardNumber;
-    private int telephoneNumber;
+    private String telephoneNumber;
     private String email;
 
     public Person() {
     }
 
-    public Person(String name, int dateOfBirth, int sex, int identityCardNumber, int telephoneNumber, String email) {
+    public Person(String name, String dateOfBirth, String sex, int identityCardNumber, String telephoneNumber, String email) {
         this.name = name;
         this.dateOfBirth = dateOfBirth;
         this.sex = sex;
@@ -28,19 +28,19 @@ public abstract class Person {
         this.name = name;
     }
 
-    public int getDateOfBirth() {
+    public String getDateOfBirth() {
         return dateOfBirth;
     }
 
-    public void setDateOfBirth(int dateOfBirth) {
+    public void setDateOfBirth(String dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public int getSex() {
+    public String getSex() {
         return sex;
     }
 
-    public void setSex(int sex) {
+    public void setSex(String sex) {
         this.sex = sex;
     }
 
@@ -52,11 +52,11 @@ public abstract class Person {
         this.identityCardNumber = identityCardNumber;
     }
 
-    public int getTelephoneNumber() {
+    public String getTelephoneNumber() {
         return telephoneNumber;
     }
 
-    public void setTelephoneNumber(int telephoneNumber) {
+    public void setTelephoneNumber(String telephoneNumber) {
         this.telephoneNumber = telephoneNumber;
     }
 
@@ -66,5 +66,17 @@ public abstract class Person {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", dateOfBirth='" + dateOfBirth + '\'' +
+                ", sex='" + sex + '\'' +
+                ", identityCardNumber=" + identityCardNumber +
+                ", telephoneNumber='" + telephoneNumber + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 }

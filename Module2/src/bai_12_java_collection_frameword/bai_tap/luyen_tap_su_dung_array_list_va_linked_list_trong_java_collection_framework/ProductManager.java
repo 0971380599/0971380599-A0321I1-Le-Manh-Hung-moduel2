@@ -8,8 +8,8 @@ public class ProductManager {
     static {
         products.add(new Product(1,"HP pavilion gaming 15",20000000));
         products.add(new Product(3,"Dell latitude e6540",10000000));
-        products.add(new Product(2,"macbook pro 2021",40000000));
-        products.add(new Product(4,"acer swift 3",18000000));
+        products.add(new Product(2,"Macbook pro 2021",40000000));
+        products.add(new Product(4,"Acer swift 3",18000000));
     }
     public static void displayMenu() {
         int choice = -1;
@@ -97,7 +97,7 @@ public class ProductManager {
             System.out.println("1. Name  ");
             System.out.println("2. Price: ");
             System.out.println("3. Name and price: ");
-            System.out.println("0. Display menu ");
+            System.out.println("4. Display menu ");
             int choice = 1;
             String name;
             double price;
@@ -148,5 +148,8 @@ public class ProductManager {
     }
     public static void sortProduct() {
         Collections.sort(products);
+    }
+    public static ArrayList<Product> getProducts() {
+       return (ArrayList<Product>) products;
     }
 }
