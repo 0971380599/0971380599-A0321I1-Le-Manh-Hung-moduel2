@@ -2,26 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b9b3a9b-fbef-41ba-8197-cd0eba46b3b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_17_binary_file_va_serialization/bai_tap/quan_li_san_pham_luu_ra_file_nhi_phan/SaveBinaryFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_17_binary_file_va_serialization/bai_tap/quan_li_san_pham_luu_ra_file_nhi_phan/SaveFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_17_binary_file_va_serialization/thuc_hanh/copy_cac_file_co_dung_luong_lon/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_17_binary_file_va_serialization/thuc_hanh/copy_cac_file_co_dung_luong_lon/TestSite.rar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_frameword/bai_tap/luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_frameword/bai_tap/luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_frameword/bai_tap/luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_frameword/bai_tap/luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework/ProductManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_16_text_file/thuc_hanh/tinh_tong_cac_so_trong_file_text/files.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/models/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/task_2/models/Booking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/models/Contract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/task_2/models/Contract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_12_java_collection_frameword/bai_tap/luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_12_java_collection_frameword/bai_tap/luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_12_java_collection_frameword/bai_tap/luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_12_java_collection_frameword/bai_tap/luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/models/Booking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/models/Contract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/models/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/models/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/models/Facility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/models/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/models/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/models/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/models/Villa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/services/BookingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/services/BookingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/services/ContactService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/services/ContactServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/services/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/services/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/services/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/services/EmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/services/FacilityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/services/FacilityServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_2/services/Service.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/task_1/controllers/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_1/controllers/FuramaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_2/models/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_2/models/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_2/models/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_2/models/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_2/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_2/models/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_2/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_2/models/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_2/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_2/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_2/services/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_2/services/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_2/services/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_2/services/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/models/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/models/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/models/Facility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Facility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/models/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/models/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Villa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/services/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/services/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/services/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/services/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/services/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/services/ContactService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/services/ContactServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/services/ContactServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/services/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/services/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/services/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/services/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/services/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/services/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/services/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/services/FacilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/services/FacilityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/services/FacilityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/services/FacilityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_2/services/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/services/Service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,6 +268,7 @@
       <workItem from="1629720752269" duration="4061000" />
       <workItem from="1629779454723" duration="597000" />
       <workItem from="1629877840769" duration="9160000" />
+      <workItem from="1629892706892" duration="1892000" />
     </task>
     <servers />
   </component>
