@@ -1,4 +1,4 @@
-package bai_18_string_rgex.thuc_hanh.validate_account;
+package bai_18_string_regex.thuc_hanh.validate_account;
 
 public class AccountExampleTest {
 

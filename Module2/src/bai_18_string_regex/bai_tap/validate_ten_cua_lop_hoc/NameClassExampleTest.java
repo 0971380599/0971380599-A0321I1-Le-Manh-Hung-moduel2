@@ -1,4 +1,4 @@
-package bai_18_string_rgex.bai_tap.validate_ten_cua_lop_hoc;
+package bai_18_string_regex.bai_tap.validate_ten_cua_lop_hoc;
 
 
 public class NameClassExampleTest {

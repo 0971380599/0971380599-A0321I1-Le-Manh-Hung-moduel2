@@ -2,35 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b9b3a9b-fbef-41ba-8197-cd0eba46b3b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_18_string_rgex/bai_tap/validate_ten_cua_lop_hoc/NameClassExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_18_string_rgex/bai_tap/validate_ten_cua_lop_hoc/NameClassExampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_18_string_rgex/thuc_hanh/crawl_danh_sach_bai_hat/CrawlSongExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_18_string_rgex/thuc_hanh/validate_account/AccountExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_18_string_rgex/thuc_hanh/validate_account/AccountExampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_18_string_rgex/thuc_hanh/validate_email/EmailExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_18_string_rgex/thuc_hanh/validate_email/EmailExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_18_string_regex/bai_tap/validate_so_dien_thoai/TelephoneExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_18_string_regex/bai_tap/validate_so_dien_thoai/TelephoneExampleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/case_study/models/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/case_study/models/Booking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/case_study/models/Facility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/case_study/models/Facility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/case_study/models/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/case_study/models/House.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/case_study/models/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/case_study/models/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/case_study/models/Villa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/case_study/models/Villa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/case_study/services/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/case_study/services/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/case_study/services/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/case_study/services/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/case_study/services/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/case_study/services/EmployeeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/case_study/services/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/case_study/services/EmployeeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/case_study/services/FacilityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/case_study/services/FacilityService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/case_study/services/FacilityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/case_study/services/FacilityServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/task_1/controllers/FuramaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/case_study/controllers/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/controllers/FuramaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/case_study/models/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/case_study/models/Facility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Facility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/case_study/models/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/case_study/models/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/case_study/models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Villa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/case_study/services/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/services/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/case_study/services/FacilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/services/FacilityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/case_study/services/FacilityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/services/FacilityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_18_string_rgex/bai_tap/validate_ten_cua_lop_hoc/NameClassExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_18_string_rgex/bai_tap/validate_ten_cua_lop_hoc/NameClassExampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_18_string_rgex/thuc_hanh/crawl_danh_sach_bai_hat/CrawlSongExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_18_string_rgex/thuc_hanh/validate_account/AccountExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_18_string_rgex/thuc_hanh/validate_account/AccountExampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_18_string_rgex/thuc_hanh/validate_email/EmailExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_18_string_rgex/thuc_hanh/validate_email/EmailExampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_18_string_rgex/bai_tap/validate_ten_cua_lop_hoc/NameClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_18_string_regex/bai_tap/validate_ten_cua_lop_hoc/NameClassExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_18_string_rgex/bai_tap/validate_ten_cua_lop_hoc/NameClassExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_18_string_regex/bai_tap/validate_ten_cua_lop_hoc/NameClassExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_18_string_rgex/thuc_hanh/crawl_danh_sach_bai_hat/CrawlSongExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_18_string_regex/thuc_hanh/crawl_danh_sach_bai_hat/CrawlSongExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_18_string_rgex/thuc_hanh/validate_account/AccountExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_18_string_regex/thuc_hanh/validate_account/AccountExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_18_string_rgex/thuc_hanh/validate_account/AccountExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_18_string_regex/thuc_hanh/validate_account/AccountExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_18_string_rgex/thuc_hanh/validate_email/EmailExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_18_string_regex/thuc_hanh/validate_email/EmailExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_18_string_rgex/thuc_hanh/validate_email/EmailExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_18_string_regex/thuc_hanh/validate_email/EmailExampleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +59,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last.edited.regexp" value="P0864H" />
+    <property name="last.edited.regexp" value="(84)-(0971380599)" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -100,13 +88,13 @@
       <recent name="bai_12_java_collection_frameword.bai_tap.luyen_tap_su_dung_array_list_va_linked_list_trong_java_collection_framework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NameClassExampleTest">
+  <component name="RunManager" selected="Application.TelephoneExampleTest">
     <configuration name="AccountExampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_18_string_rgex.thuc_hanh.validate_account.AccountExampleTest" />
+      <option name="MAIN_CLASS_NAME" value="bai_18_string_regex.thuc_hanh.validate_account.AccountExampleTest" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_18_string_rgex.thuc_hanh.validate_account.*" />
+          <option name="PATTERN" value="bai_18_string_regex.thuc_hanh.validate_account.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +103,11 @@
       </method>
     </configuration>
     <configuration name="CrawlSongExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_18_string_rgex.thuc_hanh.crawl_danh_sach_bai_hat.CrawlSongExample" />
+      <option name="MAIN_CLASS_NAME" value="bai_18_string_regex.thuc_hanh.crawl_danh_sach_bai_hat.CrawlSongExample" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_18_string_rgex.thuc_hanh.crawl_danh_sach_bai_hat.*" />
+          <option name="PATTERN" value="bai_18_string_regex.thuc_hanh.crawl_danh_sach_bai_hat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,24 +116,11 @@
       </method>
     </configuration>
     <configuration name="EmailExampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_18_string_rgex.thuc_hanh.validate_email.EmailExampleTest" />
+      <option name="MAIN_CLASS_NAME" value="bai_18_string_regex.thuc_hanh.validate_email.EmailExampleTest" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_18_string_rgex.thuc_hanh.validate_email.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FuramaController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task_1.controllers.FuramaController" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task_1.controllers.*" />
+          <option name="PATTERN" value="bai_18_string_regex.thuc_hanh.validate_email.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +129,24 @@
       </method>
     </configuration>
     <configuration name="NameClassExampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_18_string_rgex.bai_tap.validate_ten_cua_lop_hoc.NameClassExampleTest" />
+      <option name="MAIN_CLASS_NAME" value="bai_18_string_regex.bai_tap.validate_ten_cua_lop_hoc.NameClassExampleTest" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_18_string_rgex.bai_tap.validate_ten_cua_lop_hoc.*" />
+          <option name="PATTERN" value="bai_18_string_regex.bai_tap.validate_ten_cua_lop_hoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelephoneExampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_18_string_regex.bai_tap.validate_so_dien_thoai.TelephoneExampleTest" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai_18_string_regex.bai_tap.validate_so_dien_thoai.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TelephoneExampleTest" />
         <item itemvalue="Application.NameClassExampleTest" />
         <item itemvalue="Application.CrawlSongExample" />
         <item itemvalue="Application.AccountExampleTest" />
         <item itemvalue="Application.EmailExampleTest" />
-        <item itemvalue="Application.FuramaController" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +248,7 @@
       <workItem from="1629963040930" duration="595000" />
       <workItem from="1630066263076" duration="2069000" />
       <workItem from="1630078156900" duration="2000" />
-      <workItem from="1630140113891" duration="6168000" />
+      <workItem from="1630140113891" duration="8546000" />
     </task>
     <servers />
   </component>
@@ -296,10 +284,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="523" y="202" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1629628819459" />
-    <state x="995" y="165" key="#com.intellij.ide.util.MemberChooser" timestamp="1630145145737">
+    <state x="995" y="165" key="#com.intellij.ide.util.MemberChooser" timestamp="1630147413823">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="995" y="165" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1630145145737" />
+    <state x="995" y="165" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1630147413823" />
     <state x="545" y="306" width="521" height="227" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1629721708499">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -324,22 +312,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1629628828399" />
-    <state width="1493" height="153" key="GridCell.Tab.0.bottom" timestamp="1630144905239">
+    <state width="1493" height="153" key="GridCell.Tab.0.bottom" timestamp="1630150482707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="153" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630144905239" />
-    <state width="1493" height="153" key="GridCell.Tab.0.center" timestamp="1630144905239">
+    <state width="1493" height="153" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630150482707" />
+    <state width="1493" height="153" key="GridCell.Tab.0.center" timestamp="1630150482707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="153" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1630144905239" />
-    <state width="1493" height="153" key="GridCell.Tab.0.left" timestamp="1630144905239">
+    <state width="1493" height="153" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1630150482707" />
+    <state width="1493" height="153" key="GridCell.Tab.0.left" timestamp="1630150482707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="153" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1630144905239" />
-    <state width="1493" height="153" key="GridCell.Tab.0.right" timestamp="1630144905239">
+    <state width="1493" height="153" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1630150482707" />
+    <state width="1493" height="153" key="GridCell.Tab.0.right" timestamp="1630150482707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="153" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1630144905239" />
+    <state width="1493" height="153" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1630150482707" />
     <state width="1493" height="253" key="GridCell.Tab.1.bottom" timestamp="1627463444827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

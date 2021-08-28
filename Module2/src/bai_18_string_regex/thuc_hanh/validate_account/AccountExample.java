@@ -1,4 +1,4 @@
-package bai_18_string_rgex.thuc_hanh.validate_account;
+package bai_18_string_regex.thuc_hanh.validate_account;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
