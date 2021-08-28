@@ -23,7 +23,7 @@ public class Booking extends Facility{
         this.customerCode = customerCode;
     }
 
-    public Booking(String serviceName, double usableArea, double rentalCost, int maximumNumberPeople, LocalDate rentalType, int bookingCode, LocalDate firstDay, LocalDate lastDay, int customerCode) {
+    public Booking(String serviceName, double usableArea, double rentalCost, int maximumNumberPeople, String rentalType, int bookingCode, LocalDate firstDay, LocalDate lastDay, int customerCode) {
         super(serviceName, usableArea, rentalCost, maximumNumberPeople, rentalType);
         this.bookingCode = bookingCode;
         this.firstDay = firstDay;

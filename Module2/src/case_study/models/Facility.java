@@ -7,12 +7,12 @@ private String serviceName;
 private double usableArea;
 private double rentalCost;
 private int maximumNumberPeople;
-private LocalDate rentalType;
+private String rentalType;
 
     public Facility() {
     }
 
-    public Facility(String serviceName, double usableArea, double rentalCost, int maximumNumberPeople, LocalDate rentalType) {
+    public Facility(String serviceName, double usableArea, double rentalCost, int maximumNumberPeople, String rentalType) {
         this.serviceName = serviceName;
         this.usableArea = usableArea;
         this.rentalCost = rentalCost;
@@ -52,11 +52,11 @@ private LocalDate rentalType;
         this.maximumNumberPeople = maximumNumberPeople;
     }
 
-    public LocalDate getRentalType() {
+    public String getRentalType() {
         return rentalType;
     }
 
-    public void setRentalType(LocalDate rentalType) {
+    public void setRentalType(String rentalType) {
         this.rentalType = rentalType;
     }
 }

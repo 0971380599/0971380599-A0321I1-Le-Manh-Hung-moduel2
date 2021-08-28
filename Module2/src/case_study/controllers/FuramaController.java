@@ -2,6 +2,7 @@ package case_study.controllers;
 
 import case_study.services.CustomerServiceImpl;
 import case_study.services.EmployeeServiceImpl;
+import case_study.services.FacilityServiceImpl;
 
 import java.util.Scanner;
 
@@ -10,6 +11,7 @@ public class FuramaController {
         Scanner input = new Scanner(System.in);
         EmployeeServiceImpl employeeService = new EmployeeServiceImpl();
         CustomerServiceImpl customerService = new CustomerServiceImpl();
+        FacilityServiceImpl facilityService = new FacilityServiceImpl();
         System.out.println("Menu");
         System.out.println("1. Employee Management");
         System.out.println("2. Customer Management");
@@ -67,11 +69,11 @@ public class FuramaController {
                     System.out.println("Enter your choice facility: ");
                     choice3 = input.nextInt();
                     if (choice3 == 1) {
-                        System.out.println("Display list facility");
+                        facilityService.displayListFacility();
                     } else if (choice3 == 2) {
-                        System.out.println("Add new facility");
+                        facilityService.addNewFacility();
                     } else if (choice3 == 3) {
-                        System.out.println("Display list facility maintenance");
+                        facilityService.displayListFacilityMaintenance();
                     } else System.out.println("No choice!");
                 }
             } else if (choice == 4) {

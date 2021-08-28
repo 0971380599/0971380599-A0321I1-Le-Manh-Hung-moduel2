@@ -68,7 +68,6 @@ public class EmployeeServiceImpl implements EmployeeService {
             int degree;
             int position;
             float salary;
-            double price;
             while (choice != 0) {
                 choice = input.nextInt();
                 switch (choice) {
