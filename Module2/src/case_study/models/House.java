@@ -5,6 +5,7 @@ import java.time.LocalDate;
 public class House extends Facility {
     private String roomStandard;
     private int numberOfFloors;
+    private static int value = 0;
 
     public House() {
     }
@@ -34,5 +35,17 @@ public class House extends Facility {
 
     public void setNumberOfFloors(int numberOfFloors) {
         this.numberOfFloors = numberOfFloors;
+    }
+
+    public static int valueHouse() {
+        return ++value;
+    }
+
+    @Override
+    public String toString() {
+        return "House{" +
+                "roomStandard='" + roomStandard + '\'' +
+                ", numberOfFloors=" + numberOfFloors +
+                "} " + super.toString();
     }
 }

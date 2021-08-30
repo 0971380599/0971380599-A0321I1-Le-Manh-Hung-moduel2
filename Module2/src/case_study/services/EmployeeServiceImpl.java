@@ -25,20 +25,44 @@ public class EmployeeServiceImpl implements EmployeeService {
         System.out.println("Enter sex :");
         String sex = input.nextLine();
         System.out.println("Enter identityCardNumber :");
-        int identityCardNumber = input.nextInt();
-        input.nextLine();
+        int identityCardNumber = 0;
+        try {
+            identityCardNumber = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter telephoneNumber :");
         String telephoneNumber = input.nextLine();
         System.out.println("Enter email :");
         String email = input.nextLine();
         System.out.println("Enter employeeCode :");
-        int employeeCode = input.nextInt();
+        int employeeCode = 0;
+        try {
+            employeeCode = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter degree :");
-        int degree = input.nextInt();
+        int degree = 0;
+        try {
+            degree = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter position :");
-        int position = input.nextInt();
+        int position = 0;
+        try {
+            position = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter salary :");
-        float salary = input.nextInt();
+        float salary = 0;
+        try {
+            salary = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         employeesList.add(new Employee(name,dateOfBirth,sex,identityCardNumber,telephoneNumber,email,employeeCode,degree,position,salary));
     }
     public Employee isEmployee(int employeeCode) {
@@ -51,9 +75,13 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
     public void editEmployee() {
         System.out.println("Enter employeeCode:");
-        int employeeCode = input.nextInt();
+        int employeeCode = 0;
+        try {
+            employeeCode = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         Employee employee = isEmployee(employeeCode);
-        input.nextLine();
         if (employee != null) {
             System.out.println("Enter choice: ");
             System.out.println("1. TelephoneNumber:  ");
@@ -65,11 +93,15 @@ public class EmployeeServiceImpl implements EmployeeService {
             int choice = 1;
             String telephoneNumber;
             String email;
-            int degree;
-            int position;
-            float salary;
+            int degree = 0;
+            int position = 0;
+            float salary = 0;
             while (choice != 0) {
-                choice = input.nextInt();
+                try {
+                    choice = Integer.parseInt(input.nextLine());
+                } catch (NumberFormatException e) {
+                    System.out.println("Import bad format, please enter back");
+                }
                 switch (choice) {
                     case 1:
                         System.out.println("Enter new TelephoneNumber:");
@@ -85,22 +117,31 @@ public class EmployeeServiceImpl implements EmployeeService {
                         break;
                     case 3:
                         System.out.println("Enter new degree:");
-                        degree = input.nextInt();
-                        input.nextLine();
+                        try {
+                            degree = Integer.parseInt(input.nextLine());
+                        } catch (NumberFormatException e) {
+                            System.out.println("Import bad format, please enter back");
+                        }
                         employee.setDegree(degree);
                         displayListEmployees();
                         break;
                     case 4:
                         System.out.println("Enter new position:");
-                        position = input.nextInt();
-                        input.nextLine();
+                        try {
+                            position = Integer.parseInt(input.nextLine());
+                        } catch (NumberFormatException e) {
+                            System.out.println("Import bad format, please enter back");
+                        }
                         employee.setPosition(position);
                         displayListEmployees();
                         break;
                     case 5:
                         System.out.println("Enter new salary:");
-                        salary = input.nextFloat();
-                        input.nextLine();
+                        try {
+                            salary = Float.parseFloat(input.nextLine());
+                        } catch (NumberFormatException e) {
+                        System.out.println("Import bad format, please enter back");
+                    }
                         employee.setSalary(salary);
                         displayListEmployees();
                         break;

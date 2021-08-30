@@ -1,5 +1,7 @@
 package case_study.models;
 
+import java.util.Arrays;
+
 public class Customer extends Person {
     private int customerCode;
     private final String[] customerTypeArray = {"Diamond", "Platinium", "Gold", "Silver", "Member"};
@@ -48,5 +50,14 @@ public class Customer extends Person {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "customerCode=" + customerCode +
+                ", customerType='" + customerType + '\'' +
+                ", address='" + address + '\'' +
+                "} " + super.toString();
     }
 }

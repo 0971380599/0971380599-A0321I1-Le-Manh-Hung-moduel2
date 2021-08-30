@@ -6,7 +6,7 @@ public class Villa extends Facility {
     private String roomStandard;
     private double swimmingPoolArea;
     private int numberOfFloors;
-
+    private static int value = 0;
     public Villa() {
     }
 
@@ -45,5 +45,16 @@ public class Villa extends Facility {
 
     public void setNumberOfFloors(int numberOfFloors) {
         this.numberOfFloors = numberOfFloors;
+    }
+    public static int valueVilla() {
+        return ++value;
+    }
+    @Override
+    public String toString() {
+        return "Villa{" +
+                "roomStandard='" + roomStandard + '\'' +
+                ", swimmingPoolArea=" + swimmingPoolArea +
+                ", numberOfFloors=" + numberOfFloors +
+                "} " + super.toString();
     }
 }

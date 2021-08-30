@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 public class Room extends Facility {
     private String serviceFree;
+    private static int value = 0;
 
     public Room() {
     }
@@ -23,5 +24,16 @@ public class Room extends Facility {
 
     public void setServiceFree(String serviceFree) {
         this.serviceFree = serviceFree;
+    }
+
+    public static int valueRoom() {
+        return ++value;
+    }
+
+    @Override
+    public String toString() {
+        return "Room{" +
+                "serviceFree='" + serviceFree + '\'' +
+                "} " + super.toString();
     }
 }

@@ -25,17 +25,30 @@ public class CustomerServiceImpl implements CustomerService{
         System.out.println("Enter sex :");
         String sex = input.nextLine();
         System.out.println("Enter identityCardNumber :");
-        int identityCardNumber = input.nextInt();
-        input.nextLine();
+        int identityCardNumber = 0;
+        try {
+            identityCardNumber = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter telephoneNumber :");
         String telephoneNumber = input.nextLine();
         System.out.println("Enter email :");
         String email = input.nextLine();
         System.out.println("Enter customerCode :");
-        int customerCode = input.nextInt();
+        int customerCode = 0;
         System.out.println("Enter customerType :");
-        int customerType = input.nextInt();
-        input.nextLine();
+        try {
+            customerCode = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
+        int customerType = 0;
+        try {
+            customerType = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter address :");
         String address = input.nextLine();
 
@@ -51,9 +64,13 @@ public class CustomerServiceImpl implements CustomerService{
     }
     public void editCustomer() {
         System.out.println("Enter c:");
-        int customerCode= input.nextInt();
+        int customerCode= 0;
+        try {
+            customerCode = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         Customer customer = isCustomer(customerCode);
-        input.nextLine();
         if (customer != null) {
             System.out.println("Enter choice: ");
             System.out.println("1. TelephoneNumber:  ");
@@ -67,7 +84,12 @@ public class CustomerServiceImpl implements CustomerService{
             int customerType;
             String address;
             while (choice != 0) {
-                choice = input.nextInt();
+                choice = 0;
+                try {
+                    choice = Integer.parseInt(input.nextLine());
+                } catch (NumberFormatException e) {
+                    System.out.println("Import bad format, please enter back");
+                }
                 switch (choice) {
                     case 1:
                         System.out.println("Enter new TelephoneNumber:");
@@ -83,8 +105,12 @@ public class CustomerServiceImpl implements CustomerService{
                         break;
                     case 3:
                         System.out.println("Enter new degree:");
-                        customerType = input.nextInt();
-                        input.nextLine();
+                        customerType = 0;
+                        try {
+                            customerType = Integer.parseInt(input.nextLine());
+                        } catch (NumberFormatException e) {
+                            System.out.println("Import bad format, please enter back");
+                        }
                         customer.setCustomerType(customerType);
                         displayListCustomer();
                         break;

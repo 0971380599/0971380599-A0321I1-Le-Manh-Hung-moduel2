@@ -1,34 +1,34 @@
 package case_study.models;
 
-import java.time.LocalDate;
 
-public class Booking extends Facility{
+import java.awt.print.Book;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Comparator;
+
+public class Booking implements Comparator<Booking> {
     private int bookingCode;
-    private LocalDate firstDay;
-    private LocalDate lastDay;
-    private int customerCode;
+    private String firstDay;
+    private String lastDay;
+    private Customer customer;
+    private Facility facility;
 
     public Booking() {
     }
 
-    public Booking(int bookingCode, LocalDate firstDay, LocalDate lastDay, int customerCode) {
+    public Booking(int bookingCode, String firstDay, String lastDay, Customer customer) {
         this.bookingCode = bookingCode;
         this.firstDay = firstDay;
         this.lastDay = lastDay;
-        this.customerCode = customerCode;
+        this.customer = customer;
     }
 
-    public Booking(int bookingCode, int customerCode) {
-        this.bookingCode = bookingCode;
-        this.customerCode = customerCode;
-    }
-
-    public Booking(String serviceName, double usableArea, double rentalCost, int maximumNumberPeople, String rentalType, int bookingCode, LocalDate firstDay, LocalDate lastDay, int customerCode) {
-        super(serviceName, usableArea, rentalCost, maximumNumberPeople, rentalType);
+    public Booking(int bookingCode, String firstDay, String lastDay, Customer customer, Facility facility) {
         this.bookingCode = bookingCode;
         this.firstDay = firstDay;
         this.lastDay = lastDay;
-        this.customerCode = customerCode;
+        this.customer = customer;
+        this.facility = facility;
     }
 
     public int getBookingCode() {
@@ -39,37 +39,68 @@ public class Booking extends Facility{
         this.bookingCode = bookingCode;
     }
 
-    public LocalDate getFirstDay() {
+    public String getFirstDay() {
         return firstDay;
     }
 
-    public void setFirstDay(LocalDate firstDay) {
+    public void setFirstDay(String firstDay) {
         this.firstDay = firstDay;
     }
 
-    public LocalDate getLastDay() {
+    public String getLastDay() {
         return lastDay;
     }
 
-    public void setLastDay(LocalDate lastDay) {
+    public void setLastDay(String lastDay) {
         this.lastDay = lastDay;
     }
 
-    public int getCustomerCode() {
-        return customerCode;
+    public Customer getCustomer() {
+        return customer;
     }
 
-    public void setCustomerCode(int customerCode) {
-        this.customerCode = customerCode;
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
+    public Facility getFacility() {
+        return facility;
+    }
+
+    public void setFacility(Facility facility) {
+        this.facility = facility;
     }
 
     @Override
     public String toString() {
         return "Booking{" +
                 "bookingCode=" + bookingCode +
-                ", firstDay=" + firstDay +
-                ", lastDay=" + lastDay +
-                ", customerCode=" + customerCode +
+                ", firstDay='" + firstDay + '\'' +
+                ", lastDay='" + lastDay + '\'' +
+                ", customer=" + customer.getCustomerCode() +
+                ", facility=" + facility.getServiceName() +
                 '}';
+    }
+
+
+    @Override
+    public int compare(Booking o1, Booking o2) {
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        LocalDate startDate1 = LocalDate.parse(o1.getFirstDay(), dateTimeFormatter);
+        LocalDate startDate2 = LocalDate.parse(o2.getFirstDay(), dateTimeFormatter);
+        LocalDate endDate1 = LocalDate.parse(o1.getLastDay(), dateTimeFormatter);
+        LocalDate endDate2 = LocalDate.parse(o2.getLastDay(), dateTimeFormatter);
+        if (startDate1.compareTo(startDate2) > 0) {
+            return 1;
+        } else if (startDate1.compareTo(startDate2) < 0) {
+            return -1;
+        } else {
+            if (endDate1.compareTo(endDate2) > 0) {
+                return 1;
+            } else if (endDate1.compareTo(endDate2) < 0) {
+                return -1;
+            }
+            return 0;
+        }
     }
 }

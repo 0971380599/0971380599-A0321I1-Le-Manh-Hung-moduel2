@@ -1,6 +1,7 @@
 package case_study.models;
 
-public class Contract extends Booking {
+public class Contract  {
+    private Booking booking;
     private int contractCode;
     private int moneyPaid;
     private int totalMoney;
@@ -8,14 +9,8 @@ public class Contract extends Booking {
     public Contract() {
     }
 
-    public Contract(int contractCode, int moneyPaid, int totalMoney) {
-        this.contractCode = contractCode;
-        this.moneyPaid = moneyPaid;
-        this.totalMoney = totalMoney;
-    }
-
-    public Contract(int bookingCode, int customerCode, int contractCode, int moneyPaid, int totalMoney) {
-        super(bookingCode, customerCode);
+    public Contract(Booking booking, int contractCode, int moneyPaid, int totalMoney) {
+        this.booking = booking;
         this.contractCode = contractCode;
         this.moneyPaid = moneyPaid;
         this.totalMoney = totalMoney;
@@ -45,10 +40,19 @@ public class Contract extends Booking {
         this.totalMoney = totalMoney;
     }
 
+    public Booking getBooking() {
+        return booking;
+    }
+
+    public void setBooking(Booking booking) {
+        this.booking = booking;
+    }
+
     @Override
     public String toString() {
         return "Contract{" +
-                "contractCode=" + contractCode +
+                "booking=" + booking +
+                ", contractCode=" + contractCode +
                 ", moneyPaid=" + moneyPaid +
                 ", totalMoney=" + totalMoney +
                 '}';

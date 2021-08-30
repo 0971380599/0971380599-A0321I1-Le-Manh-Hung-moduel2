@@ -59,4 +59,15 @@ private String rentalType;
     public void setRentalType(String rentalType) {
         this.rentalType = rentalType;
     }
+
+    @Override
+    public String toString() {
+        return "Facility{" +
+                "serviceName='" + serviceName + '\'' +
+                ", usableArea=" + usableArea +
+                ", rentalCost=" + rentalCost +
+                ", maximumNumberPeople=" + maximumNumberPeople +
+                ", rentalType='" + rentalType + '\'' +
+                '}';
+    }
 }
