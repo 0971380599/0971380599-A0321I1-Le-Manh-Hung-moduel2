@@ -4,6 +4,7 @@ import case_study.models.Booking;
 import case_study.models.Customer;
 import case_study.models.Facility;
 import case_study.models.Villa;
+import case_study.utils.ReadAndWrite;
 
 import java.util.*;
 
@@ -41,10 +42,12 @@ public class BookingServiceImpl implements BookingService {
         Booking booking = new Booking(id, startDay, endDay, customer, facility);
         bookings.add(booking);
         System.out.println("add booking success");
+        ReadAndWrite.write(bookings, "D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\booking.csv");
     }
 
     @Override
     public void displayListBooking() {
+        ReadAndWrite.read("D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\booking.csv");
         for (Booking booking : bookings) {
             System.out.println(booking);
         }

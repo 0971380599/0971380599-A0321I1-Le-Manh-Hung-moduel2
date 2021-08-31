@@ -1,6 +1,7 @@
 package case_study.services;
 
 import case_study.models.Customer;
+import case_study.utils.ReadAndWrite;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -13,6 +14,7 @@ public class CustomerServiceImpl implements CustomerService{
     }
     static Scanner input = new Scanner(System.in);
     public void displayListCustomer() {
+        customerArrayList = (ArrayList<Customer>) ReadAndWrite.read("D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\customer.csv");
         for (Customer customer : customerArrayList) {
             System.out.println(customer);
         }
@@ -37,12 +39,12 @@ public class CustomerServiceImpl implements CustomerService{
         String email = input.nextLine();
         System.out.println("Enter customerCode :");
         int customerCode = 0;
-        System.out.println("Enter customerType :");
         try {
             customerCode = Integer.parseInt(input.nextLine());
         } catch (NumberFormatException e) {
             System.out.println("Import bad format, please enter back");
         }
+        System.out.println("Enter customerType :");
         int customerType = 0;
         try {
             customerType = Integer.parseInt(input.nextLine());
@@ -53,6 +55,7 @@ public class CustomerServiceImpl implements CustomerService{
         String address = input.nextLine();
 
         customerArrayList.add(new Customer(name,dateOfBirth,sex,identityCardNumber,telephoneNumber,email,customerCode,customerType,address));
+        ReadAndWrite.write(customerArrayList, "D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\customer.csv");
     }
     public Customer isCustomer(int customerCode) {
         for (Customer customer : customerArrayList) {
@@ -63,7 +66,7 @@ public class CustomerServiceImpl implements CustomerService{
         return null;
     }
     public void editCustomer() {
-        System.out.println("Enter c:");
+        System.out.println("Enter customerCode:");
         int customerCode= 0;
         try {
             customerCode = Integer.parseInt(input.nextLine());
@@ -129,6 +132,21 @@ public class CustomerServiceImpl implements CustomerService{
             System.out.println("id not found");
             editCustomer();
         }
+        ReadAndWrite.write(customerArrayList, "D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\customer.csv");
+    }
+
+    @Override
+    public void deleteCustomer() {
+        System.out.println("Enter customerCode:");
+        int customerCode= 0;
+        try {
+            customerCode = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
+        Customer customer = isCustomer(customerCode);
+        customerArrayList.remove(customer);
+        ReadAndWrite.write(customerArrayList, "D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\customer.csv");
     }
 
 }

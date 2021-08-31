@@ -55,23 +55,46 @@ public class FacilityServiceImpl implements FacilityService {
     @Override
     public void addNewVilla() {
         System.out.println("Enter serviceName :");
-        input.nextLine();
         String serviceName = input.nextLine();
         System.out.println("Enter usableArea :");
-        double usableArea = input.nextDouble();
+        double usableArea = 0;
+        try {
+            usableArea = Double.parseDouble(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter rentalCost :");
-        double rentalCost = input.nextDouble();
+        double rentalCost = 0;
+        try {
+            rentalCost = Double.parseDouble(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter maximumNumberPeople :");
-        int maximumNumberPeople = input.nextInt();
-        input.nextLine();
+        int maximumNumberPeople = 0;
+        try {
+            maximumNumberPeople = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter rentalType :");
         String rentalType = input.nextLine();
         System.out.println("Enter roomStandard :");
         String roomStandard = input.nextLine();
         System.out.println("Enter swimmingPoolArea :");
-        double swimmingPoolArea = input.nextDouble();
+        double swimmingPoolArea = 0;
+        try {
+            swimmingPoolArea = Double.parseDouble(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter numberOfFloors :");
-        int numberOfFloors = input.nextInt();
+        int numberOfFloors = 0;
+        try {
+            numberOfFloors = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         Villa villa = new Villa(serviceName,usableArea,rentalCost,maximumNumberPeople,rentalType,roomStandard,swimmingPoolArea,numberOfFloors);
         facilityIntegerMap.put(villa,Villa.valueVilla());
         System.out.println("successfully added new villa");
@@ -80,15 +103,28 @@ public class FacilityServiceImpl implements FacilityService {
     @Override
     public void addNewRoom() {
         System.out.println("Enter serviceName :");
-        input.nextLine();
         String serviceName = input.nextLine();
         System.out.println("Enter usableArea :");
-        double usableArea = input.nextDouble();
+        double usableArea = 0;
+        try {
+            usableArea = Double.parseDouble(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter rentalCost :");
-        double rentalCost = input.nextDouble();
+        double rentalCost = 0;
+        try {
+            rentalCost = Double.parseDouble(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter maximumNumberPeople :");
-        int maximumNumberPeople = input.nextInt();
-        input.nextLine();
+        int maximumNumberPeople = 0;
+        try {
+            maximumNumberPeople = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter rentalType :");
         String rentalType = input.nextLine();
         System.out.println("Enter serviceFree :");
@@ -101,21 +137,39 @@ public class FacilityServiceImpl implements FacilityService {
     @Override
     public void addNewHouse() {
         System.out.println("Enter serviceName :");
-        input.nextLine();
         String serviceName = input.nextLine();
         System.out.println("Enter usableArea :");
-        double usableArea = input.nextDouble();
+        double usableArea = 0;
+        try {
+            usableArea = Double.parseDouble(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter rentalCost :");
-        double rentalCost = input.nextDouble();
+        double rentalCost = 0;
+        try {
+            rentalCost = Double.parseDouble(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter maximumNumberPeople :");
-        int maximumNumberPeople = input.nextInt();
-        input.nextLine();
+        int maximumNumberPeople = 0;
+        try {
+            maximumNumberPeople = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter rentalType :");
         String rentalType = input.nextLine();
         System.out.println("Enter roomStandard :");
         String roomStandard = input.nextLine();
         System.out.println("Enter numberOfFloors :");
-        int numberOfFloors = input.nextInt();
+        int numberOfFloors = 0;
+        try {
+            numberOfFloors = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         House house = new House(serviceName,usableArea,rentalCost,maximumNumberPeople,rentalType,roomStandard,numberOfFloors);
         facilityIntegerMap.put(house,House.valueHouse());
         System.out.println("successfully added new house");

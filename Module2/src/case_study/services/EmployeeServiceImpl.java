@@ -1,6 +1,7 @@
 package case_study.services;
 
 import case_study.models.Employee;
+import case_study.utils.ReadAndWrite;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -13,6 +14,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
     static Scanner input = new Scanner(System.in);
     public void displayListEmployees() {
+        ReadAndWrite.read("D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\employee.csv");
         for (Employee employee : employeesList) {
             System.out.println(employee);
         }
@@ -64,6 +66,7 @@ public class EmployeeServiceImpl implements EmployeeService {
             System.out.println("Import bad format, please enter back");
         }
         employeesList.add(new Employee(name,dateOfBirth,sex,identityCardNumber,telephoneNumber,email,employeeCode,degree,position,salary));
+        ReadAndWrite.write(employeesList, "D:\\\\codegym\\\\A0321I1-Le-Manh-Hung-moduel2\\\\Module2\\\\src\\\\case_study\\\\data\\\\employee.csv");
     }
     public Employee isEmployee(int employeeCode) {
         for (Employee employees : employeesList) {
@@ -154,5 +157,6 @@ public class EmployeeServiceImpl implements EmployeeService {
             System.out.println("id not found");
             editEmployee();
         }
+        ReadAndWrite.write(employeesList, "D:\\\\codegym\\\\A0321I1-Le-Manh-Hung-moduel2\\\\Module2\\\\src\\\\case_study\\\\data\\\\employee.csv");
     }
 }

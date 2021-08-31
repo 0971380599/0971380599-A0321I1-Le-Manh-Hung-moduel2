@@ -1,6 +1,6 @@
 package case_study.services;
 
-public interface FacilityService extends Service {
+public interface FacilityService {
     public void displayListFacility();
     public void addNewFacility();
     public void addNewVilla();

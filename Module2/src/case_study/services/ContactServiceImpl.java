@@ -3,7 +3,9 @@ package case_study.services;
 import case_study.models.Booking;
 import case_study.models.Contract;
 import case_study.models.Customer;
+import case_study.utils.ReadAndWrite;
 
+import java.io.Reader;
 import java.util.*;
 
 public class ContactServiceImpl implements ContactService {
@@ -50,11 +52,13 @@ public class ContactServiceImpl implements ContactService {
             Contract contract = new Contract(booking, contractCode, moneyPaid, totalMoney);
             contractList.add(contract);
             System.out.println("create a successful contract");
+            ReadAndWrite.write(contractList, "D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\contracts.csv");
         }
     }
 
     @Override
     public void displayListContracts() {
+        ReadAndWrite.read("D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\contracts.csv");
         for (Contract contract : contractList) {
             System.out.println(contract);
         }
@@ -113,5 +117,6 @@ public class ContactServiceImpl implements ContactService {
             System.out.println("id not found");
             editContracts();
         }
+        ReadAndWrite.write(contractList, "D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\contracts.csv");
     }
 }

@@ -18,9 +18,9 @@ public class PromotionServiceImpl implements PromotionService {
         bookingSet.add(new Booking(8, "26/11/2021", "29/11/2021", BookingServiceImpl.chooseCustomer(106170013), BookingServiceImpl.chooseFacility("villa 1")));
     }
 
-    static int voucher10;
-    static int voucher20;
-    static int voucher50;
+    static int voucher10=0;
+    static int voucher20=0;
+    static int voucher50=0;
 
     @Override
     public void displayListCustomersUseService() {
@@ -43,11 +43,23 @@ public class PromotionServiceImpl implements PromotionService {
     @Override
     public void displayListCustomersGetVoucher() {
         System.out.println("Enter amount voucher 10%: ");
-        voucher10 = Integer.parseInt(input.nextLine());
+        try {
+            voucher10 = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter amount voucher 20%: ");
-        voucher20 = Integer.parseInt(input.nextLine());
+        try {
+            voucher20 = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         System.out.println("Enter amount voucher 50%: ");
-        voucher50 = Integer.parseInt(input.nextLine());
+        try {
+            voucher50 = Integer.parseInt(input.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Import bad format, please enter back");
+        }
         Stack<Booking> bookingStack = new Stack<>();
         bookingStack.addAll(bookingSet);
         while (!bookingStack.isEmpty() && voucher10 > 0) {

@@ -59,7 +59,8 @@ public class FuramaController {
                         System.out.println("1 Display list customers");
                         System.out.println("2 Add new customer");
                         System.out.println("3 Edit customer");
-                        System.out.println("4 Return main menu");
+                        System.out.println("4 Delete customer");
+                        System.out.println("5 Return main menu");
                         System.out.println("Enter your choice customers: ");
                         try {
                             choice2 = Integer.parseInt(input.nextLine());
@@ -73,7 +74,9 @@ public class FuramaController {
                         } else if (choice2 == 3) {
                             customerService.editCustomer();
                         } else if (choice2 == 4) {
-                            break;
+                            customerService.deleteCustomer();
+                        }   else if (choice2 == 5) {
+
                         } else System.out.println("No choice!");
                     }
                 } else if (choice == 3) {

@@ -8,7 +8,7 @@ public class Employee extends Person {
     private String position;
     private float salary;
 
-    public Employee(String name, String dateOfBirth, String sex, int identityCardNumber, String telephoneNumber, String email, int customerCode, int customerType, String address) {
+    public Employee() {
     }
 
     public Employee(int employeeCode, int degree, int position, float salary) {

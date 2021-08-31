@@ -1,8 +1,9 @@
 package case_study.models;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
-public class Customer extends Person {
+public class Customer extends Person  {
     private int customerCode;
     private final String[] customerTypeArray = {"Diamond", "Platinium", "Gold", "Silver", "Member"};
     private String customerType;
