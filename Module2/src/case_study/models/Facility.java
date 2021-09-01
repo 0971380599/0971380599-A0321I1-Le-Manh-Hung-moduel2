@@ -1,8 +1,9 @@
 package case_study.models;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public abstract class Facility {
+public abstract class Facility implements Serializable {
 private String serviceName;
 private double usableArea;
 private double rentalCost;

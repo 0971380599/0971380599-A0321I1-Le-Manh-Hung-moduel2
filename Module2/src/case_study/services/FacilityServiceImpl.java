@@ -4,21 +4,44 @@ import case_study.models.Facility;
 import case_study.models.House;
 import case_study.models.Room;
 import case_study.models.Villa;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Scanner;
+import case_study.utils.ReadAndWriteHouse;
+import case_study.utils.ReadAndWriteRoom;
+import case_study.utils.ReadAndWriteVilla;
+import case_study.utils.RegexData;
+
+import java.util.*;
 
 public class FacilityServiceImpl implements FacilityService {
-    private static Map<Facility,Integer> facilityIntegerMap = new LinkedHashMap<>();
+    private static Map<Villa,Integer> villaIntegerMap = new LinkedHashMap<>();
+    private static Map<Room,Integer> roomIntegerMap = new LinkedHashMap<>();
+    private static Map<House,Integer> houseIntegerMap = new LinkedHashMap<>();
+    static final String REGEX_NAME = "^[A-Z][a-z]+";
+    static final String REGEX_PEOPLE = "^[1-9]|([1][0-9])|[20]&";
+    static final String REGEX_AREA = "^[3-9][0-9]|[1-9][0-9]{2,}&";
     static {
-        facilityIntegerMap.put(new Villa("villa", 200, 3000000, 5, "ngay", "căn hộ cao cấp", 50, 2), Villa.valueVilla());
+        villaIntegerMap.put(new Villa("villa", 200, 3000000, 5, "ngay", "căn hộ cao cấp", 50, 2), Villa.valueVilla());
     }
     private static Scanner input = new Scanner(System.in);
+    static  List<Facility> facilityList = new ArrayList<>();
     @Override
     public void displayListFacility() {
-        for (Map.Entry<Facility,Integer> facilityIntegerEntry : facilityIntegerMap.entrySet()) {
-            System.out.println("Service : " + facilityIntegerEntry.getKey() + "number of hires: " + facilityIntegerEntry.getValue());
+        try {
+            villaIntegerMap = (Map<Villa, Integer>) ReadAndWriteVilla.read("D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\villa.csv");
+            for (Map.Entry<Villa, Integer> villaIntegerEntry : villaIntegerMap.entrySet()) {
+                System.out.println("Service : " + villaIntegerEntry.getKey() + "number of hires: " + villaIntegerEntry.getValue());
+            }
+            roomIntegerMap = (Map<Room, Integer>) ReadAndWriteRoom.read("D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\room.csv");
+            for (Map.Entry<Room, Integer> roomIntegerEntry : roomIntegerMap.entrySet()) {
+                System.out.println("Service : " + roomIntegerEntry.getKey() + "number of hires: " + roomIntegerEntry.getValue());
+            }
+            houseIntegerMap = (Map<House, Integer>) ReadAndWriteHouse.read("D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\house.csv");
+            for (Map.Entry<House, Integer> houseIntegerEntry : houseIntegerMap.entrySet()) {
+                System.out.println("Service : " + houseIntegerEntry.getKey() + "number of hires: " + houseIntegerEntry.getValue());
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+
     }
 
     @Override
@@ -54,12 +77,11 @@ public class FacilityServiceImpl implements FacilityService {
 
     @Override
     public void addNewVilla() {
-        System.out.println("Enter serviceName :");
-        String serviceName = input.nextLine();
+        String serviceName = inputServiceName();
         System.out.println("Enter usableArea :");
         double usableArea = 0;
         try {
-            usableArea = Double.parseDouble(input.nextLine());
+            usableArea = Double.parseDouble(inputUsableArea());
         } catch (NumberFormatException e) {
             System.out.println("Import bad format, please enter back");
         }
@@ -96,10 +118,19 @@ public class FacilityServiceImpl implements FacilityService {
             System.out.println("Import bad format, please enter back");
         }
         Villa villa = new Villa(serviceName,usableArea,rentalCost,maximumNumberPeople,rentalType,roomStandard,swimmingPoolArea,numberOfFloors);
-        facilityIntegerMap.put(villa,Villa.valueVilla());
+        villaIntegerMap.put(villa,Villa.valueVilla());
         System.out.println("successfully added new villa");
+//        facilityList.addAll(facilityIntegerMap.keySet());
+        ReadAndWriteVilla.write(villaIntegerMap, "D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\villa.csv");
     }
-
+    public String inputServiceName() {
+        System.out.println("Enter serviceName :");
+        return RegexData.regexStr(input.nextLine(),REGEX_NAME,"Re-enter because of wrong format, first letter must be capitalized" );
+    }
+    public String inputUsableArea() {
+        System.out.println("Enter usableArea :");
+        return RegexData.regexStr(input.nextLine(),REGEX_AREA,"" );
+    }
     @Override
     public void addNewRoom() {
         System.out.println("Enter serviceName :");
@@ -130,8 +161,9 @@ public class FacilityServiceImpl implements FacilityService {
         System.out.println("Enter serviceFree :");
         String serviceFree = input.nextLine();
         Room room = new Room(serviceName,usableArea,rentalCost,maximumNumberPeople,rentalType,serviceFree);
-        facilityIntegerMap.put(room, Room.valueRoom());
-        System.out.println("successfully added new room");
+        roomIntegerMap.put(room, Room.valueRoom());
+//        facilityList.addAll(facilityIntegerMap.keySet());
+        ReadAndWriteRoom.write( roomIntegerMap, "D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\room.csv");
     }
 
     @Override
@@ -171,8 +203,10 @@ public class FacilityServiceImpl implements FacilityService {
             System.out.println("Import bad format, please enter back");
         }
         House house = new House(serviceName,usableArea,rentalCost,maximumNumberPeople,rentalType,roomStandard,numberOfFloors);
-        facilityIntegerMap.put(house,House.valueHouse());
+        houseIntegerMap.put(house,House.valueHouse());
         System.out.println("successfully added new house");
+//        facilityList.addAll(facilityIntegerMap.keySet());
+        ReadAndWriteHouse.write(houseIntegerMap, "D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\house.csv");
     }
 
 

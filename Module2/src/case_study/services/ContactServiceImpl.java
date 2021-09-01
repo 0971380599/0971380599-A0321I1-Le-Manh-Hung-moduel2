@@ -58,7 +58,7 @@ public class ContactServiceImpl implements ContactService {
 
     @Override
     public void displayListContracts() {
-        ReadAndWrite.read("D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\contracts.csv");
+        contractList = (List<Contract>) ReadAndWrite.read("D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\contracts.csv");
         for (Contract contract : contractList) {
             System.out.println(contract);
         }

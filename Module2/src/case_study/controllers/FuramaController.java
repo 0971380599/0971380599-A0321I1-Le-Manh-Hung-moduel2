@@ -76,7 +76,7 @@ public class FuramaController {
                         } else if (choice2 == 4) {
                             customerService.deleteCustomer();
                         }   else if (choice2 == 5) {
-
+                            break;
                         } else System.out.println("No choice!");
                     }
                 } else if (choice == 3) {

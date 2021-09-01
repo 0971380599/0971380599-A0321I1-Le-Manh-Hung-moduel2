@@ -14,7 +14,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
     static Scanner input = new Scanner(System.in);
     public void displayListEmployees() {
-        ReadAndWrite.read("D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\employee.csv");
+        employeesList = (ArrayList<Employee>) ReadAndWrite.read("D:\\codegym\\A0321I1-Le-Manh-Hung-moduel2\\Module2\\src\\case_study\\data\\employee.csv");
         for (Employee employee : employeesList) {
             System.out.println(employee);
         }
